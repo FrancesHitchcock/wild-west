@@ -1,0 +1,31 @@
+body {
+  background-color: aquamarine;
+}
+
+.App {
+  text-align: center;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+button {
+  font-size: 1.125rem;
+  padding: 0.25em 0.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: darkblue;
+  color: white;
+  transition: all 0.5s;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: midnightblue;
+  transform: scale(1.05);
+}
